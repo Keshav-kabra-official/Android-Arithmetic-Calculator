@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCEA9F"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="                        Arithmetic Calculator\n\n Application that provides facilities to perform   all basic arithmetic operations.\n\n\n
+            Designed By -:\n
+                    Keshav Kabra\n
+                    +91-7014722936\n
+                    (keshavkabra.official@gmail.com)"
+        android:textSize="14sp"
+        android:textColor="#000"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

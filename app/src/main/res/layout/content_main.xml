@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText"
+        android:background="@drawable/edittext_shadow"
+        android:textColor="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:shadowRadius="4"
+        android:inputType="text"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:maxLines="1"
+        android:scrollbars="horizontal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="7dp"
+        android:textSize="36dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/b1"
+        android:background="@drawable/buttonstyle"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_7"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/b2"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_8"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-49dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_9"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/bdiv"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/arith_button"
+        android:text="\u00F7"
+        android:onClick="fun_div"
+        android:textSize="27dp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_4"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_5"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-49dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_6"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/bmul"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/arith_button"
+        android:text="\u00D7"
+        android:onClick="fun_mul"
+        android:textSize="27dp" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_1"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_2"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_3"
+        android:background="@drawable/buttonstyle"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/bsub"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/arith_button"
+        android:text="-"
+        android:onClick="fun_sub"
+        android:textSize="27dp" />
+
+    <Button
+        android:id="@+id/b0"
+        android:layout_marginTop="3dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:background="@drawable/buttonstyle"
+        android:textSize="27dp"
+        android:onClick="fun_0"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bdot"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_dot"
+        android:background="@drawable/buttonstyle"
+        android:text="." />
+
+    <Button
+        android:id="@+id/bexp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_power"
+        android:background="@drawable/button_power"
+        android:text="^" />
+
+    <Button
+        android:id="@+id/badd"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-49dp"
+        android:text="+"
+        android:background="@drawable/arith_button"
+        android:onClick="fun_add"
+        android:textSize="27dp" />
+
+    <Button
+        android:id="@+id/button_res"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:background="@drawable/button_reserved"
+        android:text="RES" />
+
+    <Button
+        android:id="@+id/bopenbrace"
+        android:layout_marginTop="-48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="left"
+        android:background="@drawable/button_brace"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_openbrace"
+        android:text="(" />
+
+    <Button
+        android:id="@+id/bclosebrace"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_brace"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="fun_closebrace"
+        android:text=")" />
+
+    <Button
+        android:id="@+id/bmod"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-47dp"
+        android:text="%"
+        android:background="@drawable/arith_button"
+        android:onClick="fun_mod"
+        android:textSize="27dp" />
+
+    <Button
+        android:id="@+id/back_space"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_backspace"
+        android:textSize="27dp"
+        android:onClick="backspace"
+        android:text="\u232b"/>
+
+    <Button
+        android:id="@+id/button_ans"
+        android:layout_marginTop="-48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:background="@drawable/button_ans"
+        android:onClick="fun_prev_ans"
+        android:text="ANS" />
+
+    <Button
+        android:id="@+id/beq"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-49dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_width="90dp"
+        android:textSize="27dp"
+        android:onClick="show_result"
+        android:background="@drawable/button_equal"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/bclear"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-47dp"
+        android:text="C"
+        android:onClick="fun_clear"
+        android:background="@drawable/button_clear"
+        android:textSize="27dp" />
+
+    <TextView
+        android:layout_marginTop="14dp"
+        android:id="@+id/owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="7dp"
+        android:textSize="10dp"
+        android:text="Designed and Made By - Keshav Kabra" />
+
+
+</LinearLayout>
